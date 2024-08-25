@@ -1,0 +1,81 @@
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1B21;
+    width: 317px;
+    border-radius: 10px 10px 0 0;
+}
+
+.info-img {
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+}
+
+.info-container > h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.info-container > h3 {
+    color: #F3BF99;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.info-container > h5 {
+    color: #F5F5F5;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+
+.info-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.info-emailButton,
+.info-linkedinButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 11px 7px 13px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.info-emailButton {
+    background: #fff;
+    color: #374151;
+}
+
+.info-emailButton > img {
+    width: 13px;
+    height: 10px;
+    margin-right: 8px;
+}
+
+.info-linkedinButton {
+    background: #5093E2;
+    color: #fff;
+}
+
+.info-linkedinButton > img {
+    width: 13px;
+    height: 13px;
+    margin-right: 8px;
+}
